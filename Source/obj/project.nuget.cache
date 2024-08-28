@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ndY2DE2lN9bSWfBT2NTn67i/qJVncC0ozfBYRkkQAVr2Yk2HkZ1hLjz9/lBgSBfhKPiLuzC/Aoh5RB+dUPeREw==",
+  "success": true,
+  "projectFilePath": "/home/xenu/FlaxProjects/PlanetGeneration/Source/Game.csproj",
+  "expectedPackageFiles": [
+    "/home/xenu/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.7/microsoft.aspnetcore.app.ref.8.0.7.nupkg.sha512"
+  ],
+  "logs": []
+}

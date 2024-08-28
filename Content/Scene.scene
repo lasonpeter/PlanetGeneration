@@ -1,0 +1,340 @@
+{
+	"ID": "08dcc15d0952a1e10f2af70d3c8131ea",
+	"TypeName": "FlaxEngine.SceneAsset",
+	"EngineBuild": 6512,
+	"Data": [
+		{
+			"ID": "08dcc15d0952a1e10f2af70d3c8131ea",
+			"TypeName": "FlaxEngine.Scene",
+			"LightmapSettings": {
+				"IndirectLightingIntensity": 1.0,
+				"GlobalObjectsScale": 1.0,
+				"ChartsPadding": 3,
+				"AtlasSize": 1024,
+				"BounceCount": 1,
+				"CompressLightmaps": true,
+				"UseGeometryWithNoMaterials": true,
+				"Quality": 10
+			}
+		},
+		{
+			"ID": "08dcc15d0953274b0f2afc7e3c81685f",
+			"TypeName": "FlaxEngine.DirectionalLight",
+			"ParentID": "08dcc15d0952a1e10f2af70d3c8131ea",
+			"Name": "Sun",
+			"Transform": {
+				"Translation": {
+					"X": 40.0,
+					"Y": 160.0,
+					"Z": 0.0
+				},
+				"Orientation": {
+					"X": 0.3826834559440613,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.9238795042037964
+				}
+			}
+		},
+		{
+			"ID": "08dcc15d095499440f2b50063c84ab73",
+			"TypeName": "FlaxEngine.Sky",
+			"ParentID": "08dcc15d0952a1e10f2af70d3c8131ea",
+			"Name": "Sky",
+			"Transform": {
+				"Translation": {
+					"X": 40.0,
+					"Y": 150.0,
+					"Z": 0.0
+				}
+			},
+			"Sun": "08dcc15d0953274b0f2afc7e3c81685f"
+		},
+		{
+			"ID": "08dcc15d09561f6b0f2b57283c84f2ce",
+			"TypeName": "FlaxEngine.SkyLight",
+			"ParentID": "08dcc15d0952a1e10f2af70d3c8131ea",
+			"Name": "SkyLight",
+			"Brightness": 2.5,
+			"CustomTexture": "c54410104ff39427bc11e5bc761d66b0"
+		},
+		{
+			"ID": "08dcc15d095f630f0f2b84883c86b875",
+			"TypeName": "FlaxEngine.Camera",
+			"ParentID": "08dcc15d0952a1e10f2af70d3c8131ea",
+			"Name": "Camera",
+			"Transform": {
+				"Translation": {
+					"X": 0.8660430908203125,
+					"Y": 223.66741943359376,
+					"Z": 32.48048400878906
+				}
+			},
+			"Far": 4000000.0
+		},
+		{
+			"ID": "233c3c8549b100cafdd58dbe9836530d",
+			"TypeName": "Game.CameraMovement",
+			"ParentID": "08dcc15d095f630f0f2b84883c86b875",
+			"V": {}
+		},
+		{
+			"ID": "08dcc366251fc5f1a67a27b5331055f8",
+			"TypeName": "FlaxEngine.TextRender",
+			"ParentID": "08dcc15d0952a1e10f2af70d3c8131ea",
+			"Name": "TextRender",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 166.19210815429688,
+					"Z": 0.0
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": -0.4240221381187439,
+					"Z": 0.0,
+					"W": 0.9056519269943237
+				}
+			},
+			"StaticFlags": 4,
+			"Text": "aSDaDSsadaW WEEEEEEEEEEEEE"
+		},
+		{
+			"ID": "08dcc3662e2abde8b20c2671a6c4f1b6",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "08dcc15d0952a1e10f2af70d3c8131ea",
+			"Name": "Plane 0",
+			"Transform": {
+				"Translation": {
+					"X": 109.7642822265625,
+					"Y": 74.99937438964844,
+					"Z": 177.7695770263672
+				},
+				"Orientation": {
+					"X": -0.7071068286895752,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				},
+				"Scale": {
+					"X": 10.0,
+					"Y": 10.0,
+					"Z": 1.0
+				}
+			},
+			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "08dcc367499072ddc61649736f2b4a3c",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "08dcc15d0952a1e10f2af70d3c8131ea",
+			"Name": "Sphere",
+			"Transform": {
+				"Translation": {
+					"X": 130.58447265625,
+					"Y": 1218.72802734375,
+					"Z": 147.7628173828125
+				}
+			},
+			"Model": "dd86c4724bf734c4959d23b3c74faa05",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "08dcc36e5195a06372f2f0d32fcf0d90",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "08dcc15d0952a1e10f2af70d3c8131ea",
+			"Name": "Cube",
+			"Transform": {
+				"Translation": {
+					"X": -107.338134765625,
+					"Y": 214.89227294921876,
+					"Z": -232.14495849609376
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "f73eb8d342f03fd0cff16ca4d7c24b03",
+			"TypeName": "Game.SimulationManager",
+			"ParentID": "08dcc36e5195a06372f2f0d32fcf0d90",
+			"V": {
+	"step": 1000.0
+}
+		},
+		{
+			"ID": "08dcc57ca716a63a043ebdf9dd5676b3",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "08dcc15d0952a1e10f2af70d3c8131ea",
+			"Name": "Procedural",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 273.9346923828125,
+					"Z": 577.4788208007813
+				}
+			},
+			"Tag": "planet"
+		},
+		{
+			"ID": "b94d13a445879f9530ff02a11767c8dd",
+			"TypeName": "Game.Chunk",
+			"ParentID": "08dcc57ca716a63a043ebdf9dd5676b3",
+			"V": {
+	"size": 100.0,
+	"MaterialBase": "3d9b3a894c3b286d13391c8c0f67733c"
+}
+		},
+		{
+			"ID": "a6156e5d4f95047c75a4578623506fb4",
+			"TypeName": "Game.Planet",
+			"ParentID": "08dcc57ca716a63a043ebdf9dd5676b3",
+			"V": {
+	"Velocity": {
+		"X": 0.0,
+		"Y": -0.002,
+		"Z": 0.0
+	},
+	"Mass": 10000000
+}
+		},
+		{
+			"ID": "ab09ec9b4075d33581593b92e90a2ec4",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "08dcc15d0952a1e10f2af70d3c8131ea",
+			"Name": "Procedural 0",
+			"Transform": {
+				"Translation": {
+					"X": 267.55584716796877,
+					"Y": 273.9346923828125,
+					"Z": 577.4788208007813
+				}
+			},
+			"Tag": "planet"
+		},
+		{
+			"ID": "50f65cef4a4aa3f9fc3016b9cbb8bc46",
+			"TypeName": "Game.Chunk",
+			"ParentID": "ab09ec9b4075d33581593b92e90a2ec4",
+			"V": {
+	"size": 100.0,
+	"MaterialBase": "3d9b3a894c3b286d13391c8c0f67733c"
+}
+		},
+		{
+			"ID": "7775d4b5474d8789eb4512bfc452990b",
+			"TypeName": "Game.Planet",
+			"ParentID": "ab09ec9b4075d33581593b92e90a2ec4",
+			"V": {
+	"Velocity": {
+		"X": 0.0,
+		"Y": 0.02,
+		"Z": 0.0
+	},
+	"Mass": 10000000
+}
+		},
+		{
+			"ID": "dbaa4a0f45684ee510047cbf35925518",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "08dcc15d0952a1e10f2af70d3c8131ea",
+			"IsActive": false,
+			"Name": "Procedural 1",
+			"Transform": {
+				"Translation": {
+					"X": 181.61044311523438,
+					"Y": 273.9346923828125,
+					"Z": 577.4788208007813
+				}
+			},
+			"Tag": "planet"
+		},
+		{
+			"ID": "cd74040b49d0c3106060259feaec6afd",
+			"TypeName": "Game.Chunk",
+			"ParentID": "dbaa4a0f45684ee510047cbf35925518",
+			"V": {
+	"size": 100.0,
+	"MaterialBase": "3d9b3a894c3b286d13391c8c0f67733c"
+}
+		},
+		{
+			"ID": "f832da9845d273db6df1d7ae6475800e",
+			"TypeName": "Game.Planet",
+			"ParentID": "dbaa4a0f45684ee510047cbf35925518",
+			"V": {
+	"Velocity": {
+		"X": 0.0,
+		"Y": -0.002,
+		"Z": 0.0
+	},
+	"Mass": 10000000
+}
+		},
+		{
+			"ID": "8705e4864c7f22e16958fcaddbe4fb35",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "08dcc15d0952a1e10f2af70d3c8131ea",
+			"IsActive": false,
+			"Name": "Procedural 2",
+			"Transform": {
+				"Translation": {
+					"X": 449.166259765625,
+					"Y": 273.9346923828125,
+					"Z": 577.4788208007813
+				}
+			},
+			"Tag": "planet"
+		},
+		{
+			"ID": "ec32083e48eaa75817f8b8b854a8d5b3",
+			"TypeName": "Game.Chunk",
+			"ParentID": "8705e4864c7f22e16958fcaddbe4fb35",
+			"V": {
+	"size": 100.0,
+	"MaterialBase": "3d9b3a894c3b286d13391c8c0f67733c"
+}
+		},
+		{
+			"ID": "dc076ce54c851356b790798afcce4cfa",
+			"TypeName": "Game.Planet",
+			"ParentID": "8705e4864c7f22e16958fcaddbe4fb35",
+			"V": {
+	"Velocity": {
+		"X": 0.0,
+		"Y": 0.02,
+		"Z": 0.0
+	},
+	"Mass": 10000
+}
+		}
+	]
+}

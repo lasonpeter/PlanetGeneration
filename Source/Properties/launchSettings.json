@@ -1,0 +1,11 @@
+﻿{
+  "profiles": {
+    "Game": {
+      "commandName": "Executable",
+      "workingDirectory": "/home/xenu/FlaxProjects/PlanetGeneration",
+      "executablePath": "/home/xenu/Downloads/FlaxEditorLinux/Binaries/Editor/Linux/Development/FlaxEditor",
+      "commandLineArgs": "-project \"/home/xenu/FlaxProjects/PlanetGeneration\"",
+      "nativeDebugging": false
+    }
+  }
+}

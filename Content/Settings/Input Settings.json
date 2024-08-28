@@ -1,0 +1,67 @@
+{
+	"ID": "08dcc15c016f4d53f85d2ab958735d7d",
+	"TypeName": "FlaxEditor.Content.Settings.InputSettings",
+	"EngineBuild": 6512,
+	"Data": {
+	"ActionMappings": [
+		{
+			"Name": "MoveForward",
+			"Mode": 0,
+			"Key": 87,
+			"MouseButton": 0,
+			"GamepadButton": 0,
+			"Gamepad": 0
+		},
+		{
+			"Name": "MoveBackwards",
+			"Mode": 0,
+			"Key": 83,
+			"MouseButton": 0,
+			"GamepadButton": 0,
+			"Gamepad": 0
+		},
+		{
+			"Name": "MoveRight",
+			"Mode": 0,
+			"Key": 68,
+			"MouseButton": 0,
+			"GamepadButton": 0,
+			"Gamepad": 0
+		},
+		{
+			"Name": "MoveLeft",
+			"Mode": 0,
+			"Key": 65,
+			"MouseButton": 0,
+			"GamepadButton": 0,
+			"Gamepad": 0
+		}
+	],
+	"AxisMappings": [
+		{
+			"Name": "Mouse X",
+			"Axis": 0,
+			"Gamepad": -1,
+			"PositiveButton": 0,
+			"NegativeButton": 0,
+			"DeadZone": 0.1,
+			"Sensitivity": 1.0,
+			"Gravity": 1.0,
+			"Scale": 1.0,
+			"Snap": false
+		},
+		{
+			"Name": "Mouse Y",
+			"Axis": 1,
+			"Gamepad": 0,
+			"PositiveButton": 0,
+			"NegativeButton": 0,
+			"DeadZone": 0.1,
+			"Sensitivity": 1.0,
+			"Gravity": 1.0,
+			"Scale": 1.0,
+			"Snap": false
+		}
+	]
+}
+}

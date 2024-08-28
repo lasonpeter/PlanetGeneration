@@ -1,0 +1,21 @@
+{
+	"settings": {
+		"typescript.tsc.autoDetect": "off",
+		"npm.autoDetect": "off",
+		"gulp.autoDetect": "off",
+		"jake.autoDetect": "off",
+		"grunt.autoDetect": "off",
+		"omnisharp.defaultLaunchSolution": "PlanetGeneration.sln",
+		"omnisharp.useModernNet": true
+	},
+	"folders": [
+		{
+			"name": "PlanetGeneration",
+			"path": "."
+		},
+		{
+			"name": "Flax",
+			"path": "/home/xenu/Downloads/FlaxEditorLinux"
+		}
+	]
+}
